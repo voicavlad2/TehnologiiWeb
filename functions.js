@@ -30,6 +30,54 @@ function countDif(str1, str2){
     }
 }
 
-console.log(countDif("hop", "hop"));   // 1
-console.log(countDif("hopa", "popa")); // 2
-console.log(countDif("Bam", "PamPam"));  // 3
+// console.log(countDif("hop", "hop"));   // 1
+// console.log(countDif("hopa", "popa")); // 2
+// console.log(countDif("Bam", "PamPam"));  // 3
+
+function countChar(text, character){
+    let count = 0;
+    for(let i = 0; i < text.length; i++)
+        if(text[i] === character)
+            count++;
+    return count;
+}
+
+// console.log(countChar("Sample Text", "e"));
+
+const counting = (text, character) => text.split(character).length - 1;
+
+// console.log(counting("Sample Text", "e"));
+
+const numList = (...numbers) => numbers;
+
+// console.log(numList(1,2,3,4));
+// console.log(numList(1,2,3));
+
+const stringConcat = (...arrays) => arrays.flat();
+
+console.log(stringConcat([1, 2], [2,3]));
+
+function fibonacci(n) {
+    if (n < 0) {
+        return "ordin negativ";
+    }
+    if (n === 0) {
+        return 0;
+    }
+    if (n === 1) {
+        return 1;
+    }
+
+    let a = 0; 
+    let b = 1; 
+
+    for (let i = 2; i <= n; i++) {
+        const c = a + b;
+        a = b; 
+        b = c; 
+    }
+
+    return b;
+}
+
+console.log(fibonacci(2));
