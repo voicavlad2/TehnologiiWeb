@@ -19,5 +19,8 @@
   "homepage": "https://github.com/voicavlad2/TehnologiiWeb#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
