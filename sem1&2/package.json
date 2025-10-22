@@ -1,0 +1,26 @@
+{
+  "name": "tehnologiiweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voicavlad2/TehnologiiWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voicavlad2/TehnologiiWeb/issues"
+  },
+  "homepage": "https://github.com/voicavlad2/TehnologiiWeb#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
